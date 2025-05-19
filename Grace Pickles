@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grace Pickles</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50 text-green-900 font-sans">
+  <!-- Header -->
+  <header class="bg-green-700 text-white p-4 text-center">
+    <h1 class="text-3xl font-bold">Grace Pickles</h1>
+    <p class="italic text-sm">Home Made Guntur Pickles - Authentic Guntur Karam</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-green-100 p-2 flex justify-center space-x-4">
+    <a href="#home" class="hover:underline">Home</a>
+    <a href="#products" class="hover:underline">Products</a>
+    <a href="#contact" class="hover:underline">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="p-6 text-center">
+    <img src="1000551548.jpg" alt="Grace Pickles Banner" class="mx-auto mb-4 rounded-xl shadow-lg w-full max-w-lg">
+    <p class="text-lg mb-2">Made from organically grown produce.</p>
+    <p class="text-lg">Prepared in a Halal kitchen with love and tradition.</p>
+    <p class="mt-4 font-semibold">Order Now: +91 630 2415358</p>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="p-6 bg-white">
+    <h2 class="text-2xl font-bold mb-4 text-center">Our Pickles</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <img src="1000557232.jpg" alt="Product List 1" class="rounded shadow">
+      <img src="1000557229.jpg" alt="Product List 2" class="rounded shadow">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="p-6 text-center bg-green-100">
+    <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+    <p>Phone: +91 630 2415358</p>
+    <p>Email: gracepickles@gunturmail.com (example)</p>
+    <p>Instagram: <a href="#" class="text-green-800 underline">@gracepickles</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm p-4 bg-green-700 text-white">
+    &copy; 2025 Grace Pickles. All rights reserved.
+  </footer>
+</body>
+</html>
